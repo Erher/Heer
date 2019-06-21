@@ -1,0 +1,215 @@
+/**home**/
+.home-wrapper{
+    padding: 0 3%;
+    border-bottom: 0.4rem solid rgba(95,95,95,0.05);
+}
+.home-top{
+    height: 2rem;
+    margin-top: 3%;
+}
+.home-photo{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+.home-name{
+    vertical-align: middle;
+}
+.home-close{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1.5%;
+    float: right;
+}
+.home-box{
+    font-size: 1.1rem;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.home-img{
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    overflow: hidden;
+    background: url(http://mall.apin.com.cn/data/app/imgs/default_goods_image_360.gif) no-repeat;
+    background-size: 100% 100%;
+    margin: 2% 0;
+}
+.home-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: perspective(1px) translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: perspective(1px) translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+}
+.home-tag{
+    margin: 4% 0;
+}
+.home-tag span{
+    background: yellow;
+    padding: 1% 2%;
+}
+.home-footer{
+    margin: 3% 0;
+    margin-top: 6%;
+    font-size: 0.8rem;
+    overflow: hidden;
+}
+.home_left{
+    margin-right: 6%;
+}
+.home_left img{
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+.home_left span{
+    vertical-align: middle;
+}
+.home_right{
+    float: right;
+    width: 6.5rem;
+    overflow: hidden;
+}
+.home_right img{
+    width: 1.5rem;
+    height: 1.5rem;
+    float: right;
+}
+.home-dislike{
+    float: right;
+}
+.home_right span span{
+    padding: 2% 12%;
+    float: right;
+}
+/**home**/
+/**topic**/
+.topic-wrapper{
+    padding: 0 3%;
+    border-bottom: 0.4rem solid rgba(95,95,95,0.05);
+}
+.topic-top{
+    height: 2rem;
+    margin-top: 3%;
+}
+.topic-order{
+    color: white;
+    background: red;
+    display: inline-block;
+    padding: 0 1.5%;
+    border-radius: 3px;
+    margin-right: 1%;
+    vertical-align: middle;
+}
+.topic-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.topic-hot{
+    float: right;
+    font-size: 0.2rem;
+    color: gainsboro;
+    margin-top: 2%;
+}
+.topic-content
+{
+    font-size: 1.1rem;
+}
+.topic-img{
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    overflow: hidden;
+    background: url(http://mall.apin.com.cn/data/app/imgs/default_goods_image_360.gif) no-repeat;
+    background-size: 100% 100%;
+    margin: 2% 0;
+}
+.topic-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: perspective(1px) translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: perspective(1px) translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+}
+.topic-footer{
+    margin: 3% 0;
+}
+.topic_left{
+    font-size: 0.2rem;
+    color: red;
+}
+.topic_right{
+    font-size: 0.2rem;
+    color: blue;
+    float: right;
+}
+/**topic**/
+/**show**/
+.show-wrapper{
+    padding: 0 3%;
+}
+.show-nav{
+    overflow: hidden;
+}
+.show-nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.show-nav ul li img{
+    width: 32%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+.show-box{
+    margin-top: 5%;
+    overflow: hidden;
+    margin-bottom: 0.4rem;
+}
+.show-img{
+    position: relative;
+    width: 49.5%;
+    height: 13rem;
+    overflow: hidden;
+    background: url(http://mall.apin.com.cn/data/app/imgs/default_goods_image_360.gif) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 1%;
+    float: left;
+    border-radius: 5px;
+}
+.show-box .show-img:first-child{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1%;
+}
+.show-box .show-img:nth-child(odd){
+    float: right;
+}
+.show-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: perspective(1px) translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: perspective(1px) translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+}
+/**show**/

@@ -1,0 +1,31 @@
+html{
+    font-size: 14px;
+    user-select: none;
+}
+@media screen and (max-width: 360px) {
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 768px) {
+    html{
+        font-size: 26px;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+dl,dd{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.app-content{
+    margin-bottom: 3.6rem;
+}

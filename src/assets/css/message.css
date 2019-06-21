@@ -1,0 +1,203 @@
+/**message**/
+.news-top ul li img{
+    width: 10%;
+    vertical-align: middle;
+}
+.news-top ul li{
+    padding: 2% 3%;
+    position: relative;
+}
+.news-replyCount{
+    position: absolute;
+    top: 19%;
+    left: 25.5%;
+    padding: 0.5% 1%;
+    background: red;
+    color: white;
+    font-size: 0.5rem;
+    border-radius: 100%;
+}
+.news-top ul li div{
+    position: absolute;
+    top: 34%;
+    right: 8%;
+    padding: 0.5% 1%;
+    background: red;
+    color: white;
+    font-size: 0.5rem;
+    border-radius: 100%;
+}
+.news-top ul li:first-child
+{
+    border-bottom: 0.5px solid #d3d3d3;
+}
+.news-top ul li:last-child
+{
+    border-bottom: 0.4rem solid rgba(95,95,95,0.05);
+}
+.news-text{
+    font-size: 0.8rem;
+    margin-left: 1%;
+    vertical-align: middle;
+}
+.news-top ul li span:last-child{
+    float: right;
+    margin-top: 2%;
+}
+/**message**/
+/**news**/
+.news-box{
+    padding: 3% 3%;
+    padding-bottom: 0;
+    border-bottom: 0.4rem solid rgba(95,95,95,0.05);
+}
+.news-survey{
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+.news-photo{
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+.news-tag{
+    float: left;
+    margin-left: 2%;
+}
+.news-name{
+    display: block;
+}
+.news-time{
+    font-size: 0.8rem;
+    color: #d3d3d3;
+}
+.news-quiz{
+    background: #d3d3d3;
+    padding: 2.5% 2%;
+    font-size: 0.9rem;
+    margin: 1% 0;
+}
+.news-footer{
+    margin: 3% 0;
+    font-size: 0.8rem;
+}
+.news_left{
+    color: #d3d3d3;
+}
+.news-footer img{
+    width: 5%;
+    float: right;
+}
+.news_right{
+    float: right;
+    margin-left: 2%;
+}
+/**news**/
+/**mine-news**/
+.mine-news-survey{
+    overflow: hidden;
+    margin: 0 3%;
+    padding: 2% 0;
+    border-bottom: 0.5px solid #d3d3d3;
+    position: relative;
+}
+.mine-news-photo{
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+.mine-news-tag{
+    float: left;
+    margin-left: 2%;
+}
+.mine-news-name{
+    display: block;
+    font-size: 0.8rem;
+    color: #d3d3d3;
+}
+.mine-news-reply{
+    display: block;
+    font-size: 0.9rem;
+    margin: 4% 0;
+}
+.mine-news-time{
+    font-size: 0.8rem;
+}
+.mine-new-dot{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 12%;
+    right: 0%;
+}
+/**mine-news**/
+/**like**/
+.like-wrapper{
+    margin-top: 4.1rem;
+}
+.like-box{
+    padding: 3% 3%;
+    padding-bottom: 0;
+    border-bottom: 0.4rem solid rgba(95,95,95,0.05);
+}
+.like-survey{
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+.like-photo{
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+.like-tag{
+    float: left;
+    margin-left: 2%;
+}
+.like-name{
+    display: block;
+}
+.like-time{
+    font-size: 0.8rem;
+    color: #d3d3d3;
+}
+.like-reply{
+    padding-bottom: 2%;
+    border-bottom: 0.5px solid #d3d3d3;
+}
+.like-title{
+    margin: 1% 0;
+    color: #d3d3d3;
+}
+.like-quiz{
+    background: #d3d3d3;
+    font-size: 0.9rem;
+    margin: 1% 0;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.like-quiz div{
+    float: left;
+}
+.like-quiz-img img{
+    display: block;
+    width: 4rem;
+    height: 4rem;
+}
+.like-quiz-content{
+    margin-top: 1.2rem;
+    margin-left: 3%;
+}
+.like-footer{
+    margin: 3% 0;
+    font-size: 0.8rem;
+}
+.like_left{
+    color: #d3d3d3;
+}
+/**like**/
