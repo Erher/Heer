@@ -23,7 +23,8 @@
     </transition>
     <transition name="custom-classes-transition" enter-active-class="animated fadeInRight">
       <div v-show="goSlide">
-        <goSlide></goSlide>
+        <!-- <goSlide></goSlide> -->
+        <change></change>
       </div>
     </transition>
   </div>
@@ -32,11 +33,13 @@
 import carousel from "./carousel.vue";
 import follow from "./follow.vue";
 import goSlide from "./go-slide.vue";
+import change from "./change.vue";
 export default {
   components: {
     carousel,
     follow,
-    goSlide
+    goSlide,
+    change
   },
   data() {
     return {
