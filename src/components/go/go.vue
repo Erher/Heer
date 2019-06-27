@@ -23,8 +23,8 @@
     </transition>
     <transition name="custom-classes-transition" enter-active-class="animated fadeInRight">
       <div v-show="goSlide">
-        <!-- <goSlide></goSlide> -->
-        <change></change>
+        <goSlide></goSlide>
+        <!-- <change></change> -->
       </div>
     </transition>
   </div>
