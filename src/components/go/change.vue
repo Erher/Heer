@@ -22,7 +22,13 @@ export default {
   },
   methods: {
     changeTitle() {
-      this.level = Math.floor(Math.random() * 10 + 1);
+      var patt = /[1-6]/;
+      var judge = () => {
+        var num = Math.floor(Math.random() * 10 + 1);
+        if (patt.test(num) && num != 10) this.level = num;
+        else judge();
+      };
+      judge();
     }
   }
 };
