@@ -4,7 +4,7 @@
 
 ## 动图预览
 
-(./static/img/show.gif)
+![功能展示](static/img/show.gif)
 
 ## Build Setup
 
