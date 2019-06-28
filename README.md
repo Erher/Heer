@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+## 动图预览
+
+(static/img/show.gif)
+
 ## Build Setup
 
 ``` bash
